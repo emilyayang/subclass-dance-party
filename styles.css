@@ -1,3 +1,66 @@
+/*body, html{
+  height:100%;
+}
+body{
+  margin: 0px;
+  background-image: url("https://image.freepik.com/free-vector/desert-landscape-with-cactus-sunset-background_43605-1150.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-size: 18px;
+}
+body, a:link, a:visited, a:active{
+  color: #663300;
+}
+.title, .addDancerButton{
+  padding:5px 12px;
+  float: right;
+}
+.topbar{
+  height:32px;
+  background-color: transparent;
+}
+.title{
+  background-color: #777;
+}
+#blinky{
+  position:absolute;
+  height: 50px;
+  width: auto;
+  content:url(https://www.silhcdn.com/3/i/shapes/lg/7/1/d115917.jpg)
+}
+#square{
+  border:200px solid yellow;
+  position:absolute;
+}
+#line{
+  border:1px solid brown;
+  height: 20px;
+  width: 100px;
+  color: #663300;
+  border-radius:50px;
+  position:absolute;
+  
+  .blinky{
+  position:absolute;
+  height: 50px;
+  width: auto;
+  content:url(https://www.silhcdn.com/3/i/shapes/lg/7/1/d115917.jpg)
+}
+.square{
+  border:200px solid yellow;
+  position:absolute;
+}
+.line{
+  border:1px solid brown;
+  height: 20px;
+  width: 100px;
+  color: #663300;
+  border-radius:50px;
+  position:absolute;
+}
+}*/
+
 body, html{
   height:100%;
 }
@@ -24,4 +87,9 @@ body, a:link, a:visited, a:active{
   border:10px solid red;
   border-radius:10px;
   position:absolute;
+}
+
+.line{
+  border: 100px solid yellow;
+  position: absolute;
 }
