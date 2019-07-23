@@ -1,4 +1,4 @@
-/*body, html{
+body, html{
   height:100%;
 }
 body{
@@ -8,6 +8,7 @@ body{
   background-repeat: no-repeat;
   background-position: center;
   font-size: 18px;
+  font
 }
 body, a:link, a:visited, a:active{
   color: #663300;
@@ -15,81 +16,35 @@ body, a:link, a:visited, a:active{
 .title, .addDancerButton{
   padding:5px 12px;
   float: right;
-}
-.topbar{
-  height:32px;
   background-color: transparent;
-}
-.title{
-  background-color: #777;
-}
-#blinky{
-  position:absolute;
-  height: 50px;
-  width: auto;
-  content:url(https://www.silhcdn.com/3/i/shapes/lg/7/1/d115917.jpg)
-}
-#square{
-  border:200px solid yellow;
-  position:absolute;
-}
-#line{
-  border:1px solid brown;
-  height: 20px;
-  width: 100px;
-  color: #663300;
-  border-radius:50px;
-  position:absolute;
-  
-  .blinky{
-  position:absolute;
-  height: 50px;
-  width: auto;
-  content:url(https://www.silhcdn.com/3/i/shapes/lg/7/1/d115917.jpg)
-}
-.square{
-  border:200px solid yellow;
-  position:absolute;
-}
-.line{
-  border:1px solid brown;
-  height: 20px;
-  width: 100px;
-  color: #663300;
-  border-radius:50px;
-  position:absolute;
-}
-}*/
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 
-body, html{
-  height:100%;
-}
-body{
-  margin: 0px;
-  background-color:#444;
-  font-size: 18px;
-}
-body, a:link, a:visited, a:active{
-  color: lightblue;
-}
-.title, .addDancerButton{
-  padding:5px 12px;
-  float:right;
+
 }
 .topbar{
   height:32px;
-  background-color: #555;
+  background-color: #ffcc66;
 }
 .title{
-  background-color: #777;
+  background-color: transparent;
+
 }
 .dancer{
-  border:10px solid red;
-  border-radius:10px;
+  position:absolute;
+
+}
+
+
+.square{
   position:absolute;
 }
 
 .line{
-  border: 100px solid yellow;
-  position: absolute;
+  position:absolute;
+
+}
+
+img {
+  width: 100px;
+  height: 100px;
 }
