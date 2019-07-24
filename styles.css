@@ -3,7 +3,7 @@ body, html{
 }
 body{
   margin: 0px;
-  background-image: url("https://image.freepik.com/free-vector/desert-landscape-with-cactus-sunset-background_43605-1150.jpg");
+  background-image: url("https://derpicdn.net/img/2016/7/17/1202708/large.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -11,7 +11,7 @@ body{
   font
 }
 body, a:link, a:visited, a:active{
-  color: #663300;
+  color: #000000;
 }
 .title, .addDancerButton{
   padding:5px 12px;
@@ -23,7 +23,8 @@ body, a:link, a:visited, a:active{
 }
 .topbar{
   height:32px;
-  background-color: #ffcc66;
+  background-color: #95C8C5;
+  color: #000000;
 }
 .title{
   background-color: transparent;
@@ -129,26 +130,26 @@ img {
 
   animation: bounce 0.5s;
   animation-direction: alternate;
-  animation-timing-function: cubic-bezier(.5,0.05,1,.5);
+  animation-timing-function: cubic-bezier(1,1,1,1);
   animation-iteration-count: infinite;
 }
 
 @keyframes bounce {
   from { transform: translate3d(0, 0, 0);     }
-  to   { transform: translate3d(0, 200px, 0); }
+  to   { transform: translate3d(0, 60px, 0); }
 }
 
 /* Prefix Support */
-ball {
+/*ball {
   -webkit-animation-name: bounce;
   -webkit-animation-duration: 0.5s;
   -webkit-animation-direction: alternate;
   -webkit-animation-timing-function: cubic-bezier(.5,0.05,1,.5);
   -webkit-animation-iteration-count: infinite;
-}
-
+}*/
+/*
 @-webkit-keyframes bounce {
   from { -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
   to   { -webkit-transform: translate3d(0, 200px, 0); transform: translate3d(0, 200px, 0); }
 }
-
+*/

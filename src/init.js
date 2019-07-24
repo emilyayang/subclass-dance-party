@@ -37,14 +37,12 @@ $(document).ready(function(){
     for (var i = 0; i < dancers.length; i++){
       dancers[i].$node.animate({
         top: $("body").height() * i/d,
-        left: $("body").width() * i/d, 
+        left: "100px", 
       });
     }
   });
+
   $(".scatterButton").on('click', function(event){
-    // var resetInput = $("body").reset();
-    // resetInput();
-    var d = dancers.length
     for (var i = 0; i < dancers.length; i++){
       dancers[i].$node.animate({
         top: $("body").height() * Math.random(),
@@ -52,5 +50,7 @@ $(document).ready(function(){
       });
     }
   });
+
+
   
 });
